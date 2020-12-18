@@ -1,0 +1,31 @@
+body {
+    overflow: hidden;
+    color:black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    height: 100%;
+
+}
+
+html {
+    background-image: url("Pictures/birdy.png");
+    background-repeat: repeat; 
+    height: 100%;
+  }
+
+
+.introduction {
+    text-align: center;
+    height: 95%;
+
+}
+
+.credit {
+    height: 3%;
+
+}
+
+.pictures {
+    border: 5px solid #555;
+
+}

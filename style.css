@@ -1,31 +1,86 @@
 body {
-    overflow: hidden;
-    color:black;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-    font-family: "Lucida Console", "Courier New", monospace;
-    height: 100%;
-
+  overflow: hidden;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  height: 100%;
 }
 
 html {
-    background-image: url("Pictures/birdy.png");
-    background-repeat: repeat; 
-    height: 100%;
-  }
-
+  background-image: url("Pictures/birdy.png");
+  background-repeat: repeat;
+  height: 100%;
+}
 
 .introduction {
-    text-align: center;
-    height: 95%;
-
+  text-align: left;
+  height: 90%;
+  width: 100%;
+  display: flex;
 }
 
 .credit {
-    height: 3%;
-
+  height: 3%;
 }
 
 .pictures {
-    border: 5px solid #555;
+  border: 5px solid #555;
+}
 
+.test {
+  display: flex;
+}
+
+.side-bar {
+  width: 10%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  width: 90%;
+}
+
+.random-picture {
+  height: 40%;
+
+  display: flex;
+}
+
+.me {
+  width: 50%;
+  height: 100%;
+  background-color: indigo;
+}
+
+.text-me {
+  width: 50%;
+  height: 100%;
+}
+
+.abutton {
+  width: 100%;
+}
+
+.aboutme {
+  text-align: center;
+  font-size: 30px;
+}
+
+.abutton {
+  background-color: black;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  border: 5px solid white;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+.abutton:hover {
+  background-color: white; 
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  border: 5px solid black;
+  border-radius: 12px;
 }
